@@ -83,4 +83,4 @@ library(stringr)
       submission <- rbind(summarise_activity, summarise_subject)
       
       # Output the data set for the submission
-      write.table(summarise_activity, "submission.txt", row.names =  FALSE)
+      write.table(submission, "submission.txt", row.names =  FALSE)
